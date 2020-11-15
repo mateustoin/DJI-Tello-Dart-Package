@@ -1,0 +1,6 @@
+name: tello
+
+dependencies:
+  udp: ^3.0.3
+  pedantic: ^1.9.2
+  meta: ^1.2.3
