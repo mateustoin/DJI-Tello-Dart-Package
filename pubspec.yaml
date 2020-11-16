@@ -1,6 +1,6 @@
 name: tello
 description: Quick and easy way to connect to a DJI Tello Drone. Using standard Dart packages, the socket is created intuitively and commands are sent easily.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/mateustoin/DJI-Tello-Dart-Package
 repository: https://github.com/mateustoin/DJI-Tello-Dart-Package
 issue_tracker: https://github.com/mateustoin/DJI-Tello-Dart-Package/issues
