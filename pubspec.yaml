@@ -1,6 +1,12 @@
 name: tello
+description: Easy to connect and control DJI Tello Drone.
+version: 1.0.0
+homepage: https://github.com/mateustoin/DJI-Tello-Dart-Package
+repository: https://github.com/mateustoin/DJI-Tello-Dart-Package
+issue_tracker: https://github.com/mateustoin/DJI-Tello-Dart-Package/issues
+author: 
+  - Mateus Antonio <mateustoin@gmail.com>
+  - Luiz Ferreira <luizalex1997@gmal.com>
 
-dependencies:
-  udp: ^3.0.3
-  pedantic: ^1.9.2
-  meta: ^1.2.3
+enviromment:
+  sdk: ">=2.10.4"
