@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
-//import 'package:tello/ConnecTello.dart';
-import '../lib/ConnectTello.dart';
+import 'package:tello/telo.dart';
+
 main() async {
   // Connect to Tello when machine WiFi is already connected to the drone
 	var tello = new ConnectTello();

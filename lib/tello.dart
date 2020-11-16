@@ -10,11 +10,11 @@ class ConnectTello {
   StreamController<String> _controller;
 
   // Default IP and Port to send commands e recieve responses
-	var _addressesDrone = new InternetAddress('192.168.10.1');
+	var _addressesDrone = InternetAddress('192.168.10.1');
   int _portDrone = 8889;
 
   // Machine IP
-	static var _addressMachine = new InternetAddress('0.0.0.0');
+	static var _addressMachine = InternetAddress('0.0.0.0');
 
   // Inicialization of Constructor with default machine port
 	factory ConnectTello({int port = 9000}) {
